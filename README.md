@@ -40,5 +40,3 @@ El proyecto está desplegado automáticamente en [Vercel](https://vercel.com). C
 
 **Juan Diego Velasco Quintero**
 GitHub: [@JuanDiegoVel](https://github.com/JuanDiegoVel)
-
-**Contribuidor:** Juan Camilo Calderón Delgado
