@@ -1,0 +1,8 @@
+{
+  "name": "Colombia Comparte Sim",
+  "description": "Interactive user journey simulation and Markov Chain analysis dashboard for Colombia Comparte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

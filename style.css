@@ -1,0 +1,74 @@
+/* Configuración general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+  color: white;
+  padding: 20px;
+}
+
+/* Tarjeta principal */
+body::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: rgba(59, 130, 246, 0.25);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+}
+
+/* Título */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Párrafos */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 8px 0;
+  color: #dbeafe;
+}
+
+/* Efecto para el segundo párrafo */
+p:last-child {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  p:last-child {
+    padding: 10px 15px;
+  }
+}
